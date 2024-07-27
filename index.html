@@ -92,52 +92,66 @@
       <a-entity position="21.5 0.5 4">
         <a-box position="0 0 0" depth="10" height="6" width="15"></a-box>
         <a-box position="0 3.5 0" depth="7" height="1" width="13"></a-box>
+        <a-box position="-8 0 0" depth="8" height="6" width="1"></a-box>
+
+        <!-- entrances -->
+        <a-entity>
+          <a-cylinder position="-10.5 -0.5 -3" height="4" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-11 -0.5 -1.8" height="4" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-11 -0.5 -0.6" height="4" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-11 -0.5 0.6" height="4" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-11 -0.5 1.8" height="4" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-10.5 -0.5 3" height="4" radius="0.25" color="#d3d3d3"></a-cylinder>
+
+          <a-box position="-10 1.5 0" depth="7" height="0.5" width="3.5"></a-box>
+          <a-box position="-10 -2.75 0" depth="7" height="0.5" width="3.5"></a-box>
+        </a-entity>
+
+        <!-- front building -->
+        <a-entity>
+          <!-- columns -->
+          <!-- front -->
+          <a-cylinder position="5 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="4 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="3 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="2 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="1 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-1 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-2 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-3 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-4 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-5 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <!-- right -->
+          <a-cylinder position="5 0 -7.5" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="5 0 -9" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <!-- left -->
+          <a-cylinder position="-5 0 -7.5" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+          <a-cylinder position="-5 0 -9" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
+
+          <!-- roof -->
+          <a-box position="0 2.5 -7.5" depth="5" height="0.5" width="11"></a-box>
+
+          <a-box position="0 4 -10" depth="5" height="2.5" width="6"></a-box>
+
+          <!-- floor -->
+          <a-box position="0 -2.30 -7.5" depth="5" height="0.4" width="11"></a-box>
+        </a-entity>
       </a-entity>
-      
-      <!-- front building -->
-      <a-entity>
-        <!-- columns -->
-        <!-- front -->
-        <a-cylinder position="5 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="4 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="3 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="2 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="1 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="-1 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="-2 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="-3 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="-4 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="-5 0 -6" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <!-- right -->
-        <a-cylinder position="5 0 -7.5" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="5 0 -9" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <!-- left -->
-        <a-cylinder position="-5 0 -7.5" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
-        <a-cylinder position="-5 0 -9" height="4.5" radius="0.25" color="#d3d3d3"></a-cylinder>
 
-        <!-- roof -->
-        <a-box position="0 2.5 -7.5" depth="5" height="0.5" width="11"></a-box>
-
-        <a-box position="0 4 -10" depth="5" height="2.5" width="6"></a-box>
-
-        <!-- floor -->
-        <a-box position="0 -2.30 -7.5" depth="5" height="0.4" width="11"></a-box>
+      <a-entity position="0 6 -3">
+        <a-text value="Palace of Culture and Science" align="center" color="black" width="7"></a-text>
+        <a-text value="The Palace of Culture and Science (Palac Kultury i Nauki) is a skyscraper in Warsaw, Poland."
+          align="center" color="black" width="6" position="0 -1 0"></a-text>
+        <a-text value="Built in 1955, it was a gift from the Soviet Union and designed by architect Lev Rudnev."
+          align="center" color="black" width="6" position="0 -2 0"></a-text>
+        <a-text value="Learn more at: https://en.wikipedia.org/wiki/Palace_of_Culture_and_Science" align="center"
+          color="blue" width="6" position="0 -3 0"></a-text>
+        <a-text
+          value="Interesting places are marked on the 3D model in various places. Use WASD or arrows and mouse to move."
+          align="center" color="black" width="6" position="0 -4 0"></a-text>
+        <a-text value="This project is a very simple 3D model of the palace, coded using A-frame in HTML. MIT licensed."
+          align="center" color="black" width="6" position="0 -5 0"></a-text>
       </a-entity>
-    </a-entity>
-
-    <a-entity position="0 6 -3">
-      <a-text value="Palace of Culture and Science" align="center" color="black" width="7"></a-text>
-      <a-text value="The Palace of Culture and Science (Palac Kultury i Nauki) is a skyscraper in Warsaw, Poland."
-        align="center" color="black" width="6" position="0 -1 0"></a-text>
-      <a-text value="Built in 1955, it was a gift from the Soviet Union and designed by architect Lev Rudnev."
-        align="center" color="black" width="6" position="0 -2 0"></a-text>
-      <a-text value="Learn more at: https://en.wikipedia.org/wiki/Palace_of_Culture_and_Science" align="center"
-        color="blue" width="6" position="0 -3 0"></a-text>
-      <a-text value="Interesting places are marked on the 3D model in various places. Use WASD or arrows and mouse to move." align="center" color="black"
-        width="6" position="0 -4 0"></a-text>
-      <a-text value="This project is a very simple 3D model of the palace, coded using A-frame in HTML. MIT licensed." align="center" color="black"
-        width="6" position="0 -5 0"></a-text>
-    </a-entity>
   </a-scene>
 
   <script src="script.js"></script>
